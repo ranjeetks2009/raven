@@ -1,0 +1,201 @@
+page-1 {
+		userName: "Jessica John",
+    		userAvatarImgUrl: "/assets/images/common/sample-profile-Jessica.png",
+    		userDesignation: "Fullfillment Associate - SOP",
+		certificates: {
+			latestCertificate : {
+				certificateTitle: "Seeker",
+				certificateImageUrl: "/assets/images/home/Seeker 1.png",
+				certificateShortDiscription: "",
+			}
+			unlockedCertificates : [
+				{
+					certificateTitle: "Seeker",
+					certificateImageUrl: "/assets/images/home/Seeker 1.png",
+					certificateShortDiscription: "",
+				},
+				{
+					certificateTitle: "Seeker",
+					certificateImageUrl: "/assets/images/home/Seeker 1.png",
+					certificateShortDiscription: "",
+				},
+				{
+					certificateTitle: "Seeker",
+					certificateImageUrl: "/assets/images/home/Seeker 1.png",
+					certificateShortDiscription: "",
+				}
+			],
+			upcommingBadges : [
+				{
+					BadgesTitle: "Adventurer",
+					BadgesImageUrl: "/assets/images/home/market analysis-02 2.png",
+					certificateShortDiscription: "",
+				},
+				{
+					BadgesTitle: "Voyager",
+					BadgesImageUrl: "/assets/images/home/business law-02 2.png",
+					BadgesShortDiscription: "",
+				},
+				{
+					BadgesTitle: "Completion",
+					BadgesImageUrl: "/assets/images/home/white_BC copy 3.png",
+					BadgesShortDiscription: "",
+				}
+			]
+		}
+		
+		roadmap : {
+			programCount: 5,
+			programs : [
+				{
+					programTitle: "Seeker",
+					programBadge: "",
+					programStatus: "Completed",
+					programProgress: 100
+					shortDiscription: "This program focuses on the employee understanding the Intake Portal."
+				},
+				{
+					programTitle: "Explorer",
+					programBadge: "",
+					programStatus: "Inprogress",
+					programProgress: 40
+					shortDiscription: "This program focuses on the employee understanding the Intake Portal."
+				},
+				{
+					programTitle: "Adventurer",
+					programBadge: "",
+					programStatus: "Not Started",
+					programProgress: 0
+					shortDiscription: "This program focuses on the employee understanding the Intake Portal."
+				},
+				{
+					programTitle: "Voyager",
+					programBadge: "",
+					programStatus: "Not Started",
+					programProgress: 0
+					shortDiscription: "This program focuses on the employee understanding the Intake Portal."
+				},
+				{
+					programTitle: "Completion",
+					programBadge: "",
+					programStatus: "Not Started",
+					programProgress: 0
+					shortDiscription: "This program focuses on the employee understanding the Intake Portal."
+				},
+			]
+		}
+		
+	}
+
+
+page 2 {
+	inprogressProgramDetails : {
+		programTitle: "Explorer Program",
+		programShortDiscription: "This program focuses on the employee understanding the Intake Portal.",
+		trainings [
+			{
+				trainingTitle: "Approve Registration Requests",
+				trainingStatus: "Completed",
+				trainingShortDiscription: "",
+				trainingLink: ""
+				training_short_discription_visibility: false,
+			},
+			{
+				trainingTitle: "Intake Portal - Hand Delivery",
+				trainingStatus: "Completed",
+				trainingShortDiscription: "",
+				trainingLink: "",
+				training_short_discription_visibility: false,
+			},
+			{
+				trainingTitle: "Intake Portal - E-delivery",
+				trainingStatus: "Inprogress",
+				trainingShortDiscription: "",
+				trainingLink: "",
+				training_short_discription_visibility: false,
+			},
+			{
+				trainingTitle: "Intake portal - Bulk Upload",
+				trainingStatus: "Not started",
+				trainingShortDiscription: "",
+				trainingLink: "",
+				training_short_discription_visibility: false
+			},
+		]
+	},
+
+	upcommingProgramDetails : {
+		programTitle: "Adventurer Program",
+		programShortDiscription: "This program focuses on the employee sorting their learnings from the Intake Portal.",
+		trainings [
+			{
+				trainingTitle: "CES Tier 1",
+				trainingStatus: "Not started",
+				trainingShortDiscription: "",
+				trainingLink: ""
+			},
+			{
+				trainingTitle: "CES Tier 1",
+				trainingStatus: "Not started",
+				trainingShortDiscription: "",
+				trainingLink: ""
+			},
+			{
+				trainingTitle: "CES Tier 1",
+				trainingStatus: "Not started",
+				trainingShortDiscription: "",
+				trainingLink: ""
+			}
+		]
+	},
+	
+}
+
+page-3 {
+	rolesDetails : [
+		{
+			roleTitle: "Quality Coordinator SOP",
+			roleImageUrl: "/assets/images/learning-journey/Explorer Program logo.png",
+			roleShortDiscription: "",
+			trainings : [
+				{
+					trainingTitle: "Introduction to fcoe",
+					trainingShortDiscription: "",
+					trainingLink: ""
+				},
+				{
+					trainingTitle: "Introduction to fcoe",
+					trainingShortDiscription: "",
+					trainingLink: ""
+				},
+				{
+					trainingTitle: "Introduction to fcoe",
+					trainingShortDiscription: "",
+					trainingLink: ""
+				}
+			]
+		},
+		{
+			roleTitle: "Fullfillment Associate SOP",
+			roleImageUrl: "/assets/images/learning-journey/Explorer Program logo.png",
+			roleShortDiscription: "",
+			trainings : [
+				{
+					trainingTitle: "Introduction to fcoe",
+					trainingShortDiscription: "",
+					trainingLink: ""
+				},
+				{
+					trainingTitle: "Introduction to fcoe",
+					trainingShortDiscription: "",
+					trainingLink: ""
+				},
+				{
+					trainingTitle: "Introduction to fcoe",
+					trainingShortDiscription: "",
+					trainingLink: ""
+				}
+			]
+		},
+	]
+}

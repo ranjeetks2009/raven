@@ -1,0 +1,218 @@
+Raven
+
+what is it?
+
+Raven is a platform for wolters kluwer employees 
+in which they can learn about the compeny, their responsibilities and their courses.
+
+number of modules?
+
+* user
+* admin
+
+user(employee)
+An user will have courses and courses contains episodes.
+
+required data
+
+
+user_data {
+	"name": "string",
+	"empId" "string",
+	"designation": "string",
+	"profile_avatar_src": "string",
+	"active": boolean,
+	"last_active_time": "date",
+	"date_of_joining": "date",
+	"total_courses_completed": num,
+	"total_pending_courses": num,
+	"total_points": num,
+	"points_gained": num,
+	"badges" [
+		{
+			badge_title: "string",
+			bagde_img_url: "string"
+		},
+	]
+
+	"completed_courses": [
+		{
+			"course_title": "string",
+			"course_id": "string",
+			"date_of_completion": "date",
+		},
+		{},
+	],
+
+	"current_course": {
+		"course_title": "string",
+		"course_id": "string",
+		"course_discription": "string",
+		"date_of_start": "date",
+		"date_of_end": "date",
+		"total_episode_count": num,
+		"total_episodes_completed": num,
+		"episodes_completed": ["episode_id",""],
+		"episode_inprogress": {
+			"episode_title": "string",
+			"episode_id": "string",
+			"percentage_of_completion": num
+		},
+		"episodes_pending": ["episode_id",""]
+	},
+
+	"upcoming_courses": [
+		{
+			"course_title": "string",
+			"course_id"	: "string"
+			"course_discription": "string",
+			"episodes": [
+				{
+					"episode_title": "string",
+					"episode_id": "string",
+					"episode_video_thumbnail_src": "string",
+					"episode_video_src": "string"
+				},
+				{},
+			]
+		},
+		{},
+	],
+
+	"colleagues": [
+		{
+			"name": "string",
+			"empId" "string",
+			"total_course_completed": num,
+			"total_points": num,
+			"points_gained": num,
+		},
+	]
+
+}
+
+course_data {
+	"empId" "string",
+	"designation": "string",
+	"courses": [
+		{
+			"course_title": "string",
+			"course_id": "string",
+			"course_discription": "string",
+			"total_episode_count": num,
+			"episodes": [
+				{
+					"episode_title": "string",
+					"episode_id": "string",
+					"episode_video_thumbnail_src": "string",
+					"episode_video_src": "string"
+				},
+				{}
+			]
+		},
+	]
+}
+
+
+
+user {
+	name: "string",
+	empId: "string",
+	profile_avatar_src: "",
+	avatar_small_src: "",
+	avatar_full_url: "",
+	designation: "",
+	total_points: num,
+	badge_urls: ["string"],
+	"active": boolean,
+	"last_active_time": "date",
+	"total_progress": num,
+	completed_courses [
+		{
+			course_title: "srting",
+			course_Id: "string_id",
+			course_tubmnail_url: "string" 
+			short_discription: "string"
+		}
+	],
+	current_courses: [
+		{
+			course_title: "srting",
+			course_Id: "string_id",
+			short_discription: "string"
+			course_tubmnail_url: "string"
+			current_classes: [
+				{
+					class_title: "string",
+					class_id: "srting",
+					class_tubmnail_url: "string"
+					completed_percentage: num,
+				}
+			]
+		}
+	],
+	upcoming_courses: [
+		{
+			course_title: "srting",
+			course_Id: "string_id"
+			course_tubmnail_url: "string"
+			short_discription: "string"
+		}
+	]
+}
+
+"colleagues": [
+	{
+		"name": "string",
+		"empId" "string",
+		"total_course_completed": num,
+		"total_points": num,
+		"points_gained": num
+	},
+]
+
+charts_details {
+	"time_spend_chart": [
+		{
+			"month": "string",
+			"time_spent_percentage": num
+		}
+	]
+
+	"level_details": {
+		"level": num,
+		"level_progress_percentage": num
+	}
+
+	"growth_details" : [
+		{
+			"month": "string",
+			"growth_percentage": num
+		}
+	]
+}
+
+roles {
+	"role_name" : "string",
+	"role_thumbnail_url": "string",
+	"role_short_discription": "string"
+	courses : [
+		"course_title": "string",
+		"course_thumbnail_url": "string",
+		"course_short_discription": "string"
+	]
+}
+
+avatar_selection [
+	{
+		"avatar_face": {
+			"avatar_name": "string",
+			"avatar_image_url": "string"
+
+		},
+		"avatar_torso": {
+			"avatar_costume_name": "string",
+			"avatar_costume_url": "string"
+		}
+	}
+]
